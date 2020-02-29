@@ -8,10 +8,7 @@ ReactJS     - Client side user interface
 NodeJS      - Server  
 
 ### CRUD
-Create  
-Read  
-Update  
-Detlete  
+Create, Read, Update, Delete  
 
 
 # Header 1
