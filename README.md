@@ -2,16 +2,16 @@
 ## Build a CRUD application using the MERN Stack
 
 ### MERN
-MongoDB     - Database (Mongoose)
-ExpressJS   - Web Framework (Handle requests and responses)
-ReactJS     - Client side user interface
-NodeJS      - Server
+MongoDB     - Database (Mongoose)  
+ExpressJS   - Web Framework (Handle requests and responses)  
+ReactJS     - Client side user interface  
+NodeJS      - Server  
 
 ### CRUD
-Create
-Read
-Update
-Detlete
+Create  
+Read  
+Update  
+Detlete  
 
 
 # Header 1
