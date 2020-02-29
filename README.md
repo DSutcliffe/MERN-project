@@ -10,6 +10,35 @@ NodeJS      - Server
 ### CRUD
 Create, Read, Update, Delete  
 
+Make sure global dependancies are installed
+npm i nodemon -g                - Watches directory for any changes (so dont node index.js each time)
+npm i concurrently -g           - run 2 terminals at once
+mpn i create-react-app -g       - 
+
+1. Start with an empty foler 'MERN-project', drag this to VS Code
+2. Create a new folder 'server' **[BACKEND]**
+3. cd into 'server'
+4. npm init -y
+5. npm i express mongoose
+6. Create .gitignore for /node_modules just created in 'server'
+7. cd ..
+8. create-react-app client **[FRONTEND]**
+9. 'server' package.json
+10. under "scripts" write some new scripts...
+    * "start": "node index",
+    * "client": "cd client && npm run start",
+    * "client-install": "cd client && npm install",
+    * "server-install": "cd server && npm install",
+    * "install-all": "concurrently \"npm run client-install\" \"npm run server-install\"",
+    * "server": "cd server && nodemon index",
+    * "dev": "concurrently \"npm run client\" \"npm run server\""
+    * Now I can just "npm install-server" or "npm dev" to run the 2 scripts at once (concurrently)
+11. 'client' package.json
+12. under "development" write a new proxy...
+    * "proxy":"http://localhost:5000"
+    * create-react by default listens on port 3000
+
+1. 'server' - create index.js
 
 # Header 1
 ## Header 2
